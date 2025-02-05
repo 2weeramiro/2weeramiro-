@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menú Estilo Netflix</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #000;
+            color: #fff;
+        }
+
+        /* Menú lateral estilo Netflix */
+        .menu-lateral {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 80px; /* Estilo compacto como Netflix */
+            height: 100%;
+            background-color: #141414;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 20px 0;
+        }
+
+        /* Estilo de los iconos en el menú */
+        .menu-lateral a {
+            color: #b3b3b3;
+            text-decoration: none;
+            font-size: 24px;
+            margin: 20px 0;
+            transition: color 0.3s;
+        }
+
+        .menu-lateral a:hover {
+            color: #fff;
+        }
+
+        /* Logo estilo Netflix */
+        .logo {
+            width: 40px;
+            margin-bottom: 40px;
+        }
+
+        /* Contenido principal */
+        .contenido {
+            margin-left: 80px;
+            padding: 20px;
+        }
+
+        .contenido h1 {
+            font-size: 48px;
+        }
+
+        .contenido p {
+            font-size: 18px;
+            color: #b3b3b3;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Menú lateral -->
+    <div class="menu-lateral">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/0/08/Netflix_2015_logo.svg" alt="Logo Netflix" class="logo">
+        <a href="#"><i class="fas fa-home"></i></a>
+        <a href="#"><i class="fas fa-search"></i></a>
+        <a href="#"><i class="fas fa-tv"></i></a>
+        <a href="#"><i class="fas fa-film"></i></a>
+        <a href="#"><i class="fas fa-heart"></i></a>
+        <a href="#"><i class="fas fa-cog"></i></a>
+    </div>
+
+    <!-- Contenido principal -->
+    <div class="contenido">
+        <h1>JOKER</h1>
+        <p>Durante los años 80, un comediante frustrado desciende a la locura...</p>
+        <button style="padding: 10px 20px; background-color: #e50914; color: white; border: none; font-size: 18px; cursor: pointer;">Reproducir</button>
+    </div>
+
+</body>
+</html>
+
+     document.getElementById("menuLateral").style.width = "0";
+        }
+    </script>
+
+</body>
+</html>
